@@ -1,0 +1,250 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* GLOBAL */
+.navHolder{
+	background-color:#333;
+	height:auto;
+}
+
+.navHolder > li > h3 > a:hover{
+	color:#FC6;
+}
+
+.navHolder > li > h3 > a {
+	font-family: 'Amatic SC', cursive;
+	color:white;
+	font-size:48px;
+}
+
+.navHolder > li {
+	margin-right:5%;
+}
+
+
+/* INDEX.HTML */
+
+.siteName {
+			height:370px;
+			width: 100%; /* 1000px / 1250px */
+			padding: 40px;
+			position: relative;
+			text-align: center;
+			background-color:#fff;
+			background-image:url(../img/background.png);
+			background-repeat:repeat-y;
+			border-bottom:#3CC solid 6px;
+		}
+		
+.siteName > h1{
+	font-family: 'Amatic SC', cursive;
+	font-size:150px;
+	/*color:#F49E9D;*/
+	color: #3CC;
+	font-weight:700;
+	margin-top:0;
+}
+
+.siteName > h2 {
+	font-family: 'Amatic SC', cursive;
+	font-size:75px;
+	/*color:#F49E9D;*/
+	color: #3CC;
+	font-weight:300;
+	margin-top:-10px;
+	}
+
+/* WORLD HTML */	
+	
+.tealBack{ /* World - Teal with Cone Background */
+	width:100%;
+	height:300px;
+	padding-top:2%;
+	background-color:#9CC;
+	background-image:url(../img/background.png);
+	background-repeat:repeat-y;
+}	
+
+.mapHolder { /* World - GoogleMaps holder */
+	width:auto;
+	height:auto;
+	border-top: #333 solid 4px;
+	border-bottom: #333 solid 4px;
+}
+
+/* FLAVORS HTML */	
+
+.fb{
+	background-image:url(../img/flavorBack.jpg);
+	height:600px;	
+}
+	
+.flavorBack{ /* World - Teal with Cone Background */
+	width:100%;
+	height:680px;
+	padding-top:2%;
+	background-color:#ccf; /*ccf */
+	background-image:url(../img/background.png);
+	background-repeat:repeat-y;
+	border-bottom:#333 solid 3px;
+}
+
+.list{
+	margin-left:-5%;
+	padding-top:25px;
+}
+
+.title{ /* title of "americas favorite" */
+	font-family: 'Amatic SC', cursive;
+	font-size:100px;
+	font-weight:300;
+	color:#5C3D7A;	
+	text-align:center;
+/*	border: blue solid thin;
+*/}
+
+#flavorList{ /* left side of list */
+	font-family: 'Amatic SC', cursive;
+	font-size:50px;
+	font-weight:300;
+	color:#8864A4;	
+	text-align:left;
+	padding-left:50px;
+/*	border: green solid thin;
+*/}
+
+#flavorList2{ /* right side of list */
+	font-family: 'Amatic SC', cursive;
+	font-size:50px;
+	font-weight:300;
+	color:#8864A4;	
+	text-align:left;
+/*	border: red solid thin;*/
+}
+
+#vanilla:hover, #greentea:hover, #coconut:hover, #strawberry:hover, #chocolate:hover, #mango:hover, #cookie:hover, #redbean:hover, #cookiescream:hover, #mint:hover{ /*list hover */
+	color:white;	
+	text-align:left;
+	padding-left:50px;
+	cursor:pointer;
+}
+
+
+.white{
+	height:600px;
+}
+
+
+/* MEDIA QUERIES */
+	
+@media (max-width: 1255px) {	
+	
+	.title{
+	font-family: 'Amatic SC', cursive;
+	font-size:80px;
+	font-weight:300;
+	color:white;	
+	text-align:center;
+	}	
+}
+
+@media (max-width: 1220px) {
+
+	ul, ol { /* idk if this works */
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+	}
+
+	.navHolder{ /* fixes white bar under navHolder */
+	height:93px;
+	}
+}
+
+@media (max-width:1199px){
+	.flavorBack{
+		height:1200px;
+	}
+	
+	#flavorList{
+		padding-left:60%;
+	}
+	
+	#flavorList2{
+		padding-left:10%;
+	}
+}
+
+@media (max-width:1100px){
+	
+	.siteName > h1{
+	font-family: 'Amatic SC', cursive;
+	font-size:120px;
+	font-weight:700;
+	}
+	
+	.siteName > h2 {
+	font-family: 'Amatic SC', cursive;
+	font-size:60px;
+	font-weight:300;
+	}	
+}
+
+@media (min-width:766px) and (max-width:890px){
+	.flavorBack{
+		height:1300px;
+	}
+	
+	#flavorList{
+		padding-left:50%;
+	}
+	
+	#flavorList2{
+		padding-left:5%;
+	}
+}
+
+@media (max-width:765px){
+	.flavorBack{
+		height:1050px;
+	}
+	
+	.title{
+		font-size:50px;
+	}
+	
+	#flavorList{
+		padding:0;
+		font-size:45px;
+	}
+	
+	#flavorList2{
+		padding:0;
+		font-size:45px;
+	}
+}
+
+
+@media (max-width:480px){
+	
+	.siteName > h2 {
+    font-family: "Amatic SC",cursive;
+    font-size: 54px;
+    font-weight: 300;
+	}
+	
+	.navHolder > li > h3 > a { /* change when nav is finalized */
+	font-family: 'Amatic SC', cursive;
+	color:white;
+	font-size:40px;
+	padding-left:2px;
+	}
+	
+}
+
+@media (max-width:420px){	
+	.siteName > h2 {
+    font-size:50px;
+	}
+	
+}
