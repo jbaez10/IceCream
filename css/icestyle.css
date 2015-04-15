@@ -182,6 +182,10 @@ video {
 	color:white;	
 	text-align:center;
 	}	
+	
+	.navHolder{ /* fixes white bar under navHolder */
+	height:93px;
+	}
 }
 
 @media (max-width: 1220px) {
