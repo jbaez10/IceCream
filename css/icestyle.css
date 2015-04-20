@@ -27,8 +27,12 @@
 
 /* INDEX.HTML */
 
+.index_nav{
+	margin-top:0px;	
+}
+
 .siteName {
-			height:370px;
+			height:350px;
 			width: 100%; /* 1000px / 1250px */
 			padding: 40px;
 			position: relative;
