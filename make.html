@@ -28,6 +28,100 @@
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/flavor_change.js"></script>
 	<script src="js/make.js"></script> 
+
+
+
+ <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+      <title>Creating Scrolling Parallax Effects with CSS Example</title>
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="/wp-content/themes/punky/fonts.css" media="all"><link rel="stylesheet" type="text/css" href="/wp-content/themes/punky/style.css?1429460292055" media="all"><!--[if IE]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script><![endif]--><style>
+.demo-frame header, .demo-frame h1, .demo-frame .demo-conversion {
+  display: none;
+}
+
+.demo-wrapper {
+  min-height: 500px;
+}
+
+.bsap {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+</style>  <style type="text/css">
+.parallax [class*="bg__"] {
+  position: relative;
+  height: 50vh;
+  text-indent: -9999px;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+}
+.parallax [class*="bg__"]:nth-child(2n) {
+  box-shadow: inset 0 0 1em #111;
+}
+.parallax .bg__foo, .parallax .bg__bazz {
+  height: 100vh;
+}
+.parallax .bg__foo {
+  
+}
+.parallax .bg__bar {
+  /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax2.jpg);*/
+  color:red;
+}
+.parallax .bg__baz {
+  color:red;
+}
+.parallax .bg__bazz {
+  color:red;
+}
+.parallax .bg__break {
+  box-shadow: inset 0 0 1em #111;
+  /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax1.jpg);*/
+}
+.parallax .capture {
+  float: right;
+  width: 200px;
+  padding: 1em;
+  margin: -1.5em 1em 0 0;
+  text-indent: 0;
+  background: rgba(243, 243, 243, 0.75);
+  box-shadow: 0 1px 0.125em #333;
+}
+
+article .container {
+  width: 600px;
+  margin: 0 auto;
+}
+article .header {
+  position: relative;
+  margin: -5em 0 0 0;
+  padding: 1em;
+  text-align: left;
+  font-size: 2em;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+article h1, article h2 {
+  margin: 0 0 0.333em;
+}
+article section {
+  padding: 3em;
+}
+article section.parallax {
+  margin: 0;
+  padding: 0;
+}
+  </style>
+
+
+
+
+
+
+
 </head>
 
 <body>
@@ -66,7 +160,7 @@
 <source src="//demosthenes.info/assets/videos/polina.webm" type="video/webm">
 <source src="video/icecreamvideo.mp4" type="video/mp4">
 </video>
-<div id="polina">
+<!-- <div id="polina">
 <h1>How To Make Vanilla Ice Cream</h1>
 
 
@@ -82,7 +176,162 @@
 4. When ice cream is softly frozen, serve immediately or place a piece of plastic wrap directly on the ice cream and place in freezer to ripen, 2 to 3 hours.</p>
 
 
+</div> -->
+
+
+<script>
+z={analyticsID:"UA-2087880-2",themePath:"/wp-content/themes/punky",pluginPath:"libs/curl/src/curl/plugin/",domain:"davidwalsh.name",loadSidebar:!(-1!=navigator.userAgent.toLowerCase().indexOf("googlebot")),d:document,w:this},z.baseUrl=z.themePath+"/js/",-1==location.hostname.indexOf(z.domain)&&(z.isDebug=1,z.analyticsID=0),z.moo="//ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools"+(z.isDebug?"":"-yui-compressed")+".js";z.analyticsID&&function(){!function(e,a,n,t,c,s,i){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,s=a.createElement(n),i=a.getElementsByTagName(n)[0],s.async=1,s.src=t,i.parentNode.insertBefore(s,i)}(z.w,z.d,"script","//www.google-analytics.com/analytics.js","ga"),ga("create",z.analyticsID,z.domain),ga("send","pageview"),ga("set","nonInteraction",!0)}();</script>
+
+
+<!-- <div class="demo-wrapper">
+
+<h1>Demo:  Creating Scrolling Parallax Effects with CSS</h1>
+
+<div class="demo-conversion">Read <a href="http://davidwalsh.name/parallax" target="_top">Creating Scrolling Parallax Effects with CSS</a></div>
+
+<div id="promoNode"></div>  
+  <p>Check out the amazing parallax effect as you scroll!</p>
+   -->
+  <!-- Four containers for setting the background images -->
+<article>
+  <div class="parallax">
+    <div class="bg__foo"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+    <div class="bg__bar"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+    <div class="bg__baz"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+    <div class="bg__bazz"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+  </div>
+  <div class="header">
+    <h1>Example for 'background-attachment : fixed'</h1>
+  </div>
+  <section>
+    <div class="container">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+     
+    </div>
+  </section>
+  <section class="parallax">
+    <div class="bg__break">
+      <div class="capture">Caption for this beautiful break image, Caption for this beautiful break image, Caption for this beautiful break image, Caption for this beautiful break image.</div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+    </div>
+  </section>
+</article>
+  
+  
 </div>
+
+<p class="demo-conversion">Back to: <a href="http://davidwalsh.name/parallax" target="_top">Creating Scrolling Parallax Effects with CSS</a></p>
+
+</main>
+
+  <style>
+    body .one .bsa_it_ad { background: #f8f8f8; border: none; font-family: inherit; width: 200px; position: absolute; top: 0; right: 0; text-align: center; border-radius: 8px; }
+    body .one .bsa_it_ad .bsa_it_i { display: block; padding: 0; float: none; margin: 0 0 5px; }
+    body .one .bsa_it_ad .bsa_it_i img { padding: 10px; border: none; margin: 0 auto; }
+    body .one .bsa_it_ad .bsa_it_t { padding: 6px 0; }
+    body .one .bsa_it_ad .bsa_it_d { padding: 0; font-size: 12px; color: #333; }
+    body .one .bsa_it_p { display: none; }
+    body #bsap_aplink, body #bsap_aplink:hover { display: block; font-size: 10px; margin: 12px 15px 0; text-align: right; }
+  </style>
+  <script type="text/javascript" src="http://cdn.adpacks.com/adpacks.js?legacyid=1280449&zoneid=1386&key=db3b221ddd8cbba67739ae3837520ffe&serve=C6SI42Y&placement=davidwalshname&circle=dev" id="_adpacks_js"></script>
+
+
+<script>
+
+document.body.className+= ' demo-page';
+
+window.addEventListener('load', function() {
+  var s = 'script';
+  var d = document;
+  var w = window;
+  var firstScript = d.getElementsByTagName(s)[0];
+
+  
+  (function() {
+    var first_paragraph = document.getElementsByTagName('p')[0];
+    if(first_paragraph) {
+      first_paragraph.className = 'demo-intro';
+    }
+
+    setTimeout(function() {
+      var headerA = d.getElementById('header-fx');
+      headerA.className += ' complete';
+    }, 2000);
+  })();
+  
+
+  // BSA bitches!
+  var bsa = d.createElement(s);
+  bsa.async = 1;
+  bsa.src = '//s3.buysellads.com/ac/bsa.js';
+  firstScript.parentNode.insertBefore(bsa, firstScript);
+
+  // Promo!
+  (function() {
+
+    var promoNode = d.getElementById('promoNode');
+
+    // Temporary - use MooTools 2.0 when available
+    function createElement(tagName, attr, parent) {
+      var el = d.createElement(tagName);
+      for(prop in attr) {
+        if(attr.hasOwnProperty(prop)) el.setAttribute(prop, attr[prop]);
+      }
+      parent.appendChild(el);
+      return el;
+    }
+
+    // Loads a script
+    function loadScript(url) {
+      var script = d.createElement('script');
+      script.src = url;
+      script.setAttribute('async', 'true');
+      d.documentElement.firstChild.appendChild(script);
+    }
+
+    // Create the Twitter widget, inject
+    createElement('a', {
+      href: '//twitter.com/share',
+      'data-count': 'horizontal',
+      'class': 'twitter-share-button'
+    }, createElement('span', {}, promoNode));
+    loadScript('http://platform.twitter.com/widgets.js');
+
+    // Create the Google Plus icon
+    var gl = createElement('g:plusone', {
+      href: w.location,
+      size: 'medium'
+    }, createElement('span', {}, promoNode));
+    loadScript('//apis.google.com/js/plusone.js');
+    
+    // Create the Facebook widget
+    createElement('iframe', {
+      src: '//facebook.com/plugins/like.php?href=' + w.location,
+      scrolling: 'no',
+      frameborder: 0,
+      allowTransparency: true,
+      style: 'border:none; overflow:hidden; float:left; height:24px; margin-top:3px;'
+    }, createElement('span', {}, promoNode));
+
+  })();
+});
+
+!function(e){var t=e.createElement("link"),s="setAttribute";t[s]("type","text/css"),t[s]("rel","stylesheet"),t[s]("href","//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"),e.head.appendChild(t)}(z.d);</script>
+
+
+
+
+
+
 
 </body>
 </html>
+
+
+
+
+
