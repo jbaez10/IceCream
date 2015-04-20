@@ -11,31 +11,44 @@
   overflow: hidden;
   margin: 0;
 }
+
 .scroll-text ul li {
   height: 1.5em;
 }
+
 .scroll-img {
-  border: 1px solid red;
-  width: 680px;
-  height: 142px;
+  width: 87%;
+  height: 370px;
   overflow: hidden;
   font-size: 0;
+  margin-left:5%;
 }
+
 .scroll-img ul {
   width: 700px;
   height: 600px;
   margin: 0;
 }
+
 .scroll-img ul li {
   display: inline-block;
   margin: 10px 0 10px 10px;
 }
+
 #demo4.scroll-img ul,
 #demo5.scroll-img ul {
   width: 1500px;
 }
-#demo5-btn {
-  width: 680px;
-  padding-top: 10px;
+
+#demo5-btn_left {
+  width: 80px;
+  margin-top: -200px;
+  float:left;
+}
+
+#demo5-btn_right {
+  width: 80px;
+  margin-top:-200px;
+  float:right;
 }
 
