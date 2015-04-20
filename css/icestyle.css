@@ -61,12 +61,22 @@
 	
 .tealBack{ /* World - Teal with Cone Background */
 	width:100%;
-	height:950px;
+	height:680px;
 	padding-top:2%;
 	background-color:#9CC;
 	background-image:url(../img/background.png);
 	background-repeat:repeat-y;
 }	
+
+.title_world{
+	font-family: 'Amatic SC', cursive;
+	font-size:100px;
+	font-weight:300;
+	color:#3f6e6e /*#568282*/;	
+	text-align:center;
+	margin-bottom:50px;
+	padding-top:6%;
+}
 
 .mapHolder { /* World - GoogleMaps holder */
 	width:auto;
@@ -97,7 +107,7 @@
 	padding-top:25px;
 }
 
-.title{ /* title of "americas favorite" */
+.title_flavors{ /* title of "americas favorite" */
 	font-family: 'Amatic SC', cursive;
 	font-size:100px;
 	font-weight:300;
@@ -135,12 +145,12 @@
 	cursor:pointer;
 }
 
-
 .white{
 	height:600px;
 }
 
 
+/* MAKING.HTML */
 
 #polina { 
   font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
@@ -172,6 +182,9 @@ video {
 .stopfade { 
    opacity: .5;
 }
+
+
+
 
 
 
