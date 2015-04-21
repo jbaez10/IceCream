@@ -32,6 +32,9 @@
  <!-- CAROUSEL SLIDER -->
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
  <script src="js/jquery.scrollbox.js"></script>
+ 
+ <!-- JAVASCRIPT FOR DRAGGABLE IMAGES -->
+ <script src="js/drag.js"></script>
   
 </head>
 <body>
@@ -99,14 +102,43 @@
     
    
      <div class="col-lg-12 white">
-     	<div class="title_flavor">
-        
-        </div>
+     	<div class="title_flavors"> Drag the pieces below, make a sundae! </div>
+        	<div class="col-lg-12 white">
+            <img src="img/drag/Cone1.png" class="drag" />
+        	<img src="img/drag/Cone2.png" class="drag" />
+        	<img src="img/drag/F_choco.png" class="drag" />
+			<img src="img/drag/F_mango.png" class="drag" />
+			<img src="img/drag/F_mint.png" class="drag" />
+            <img src="img/drag/F_strawberry.png" class="drag" />
+			<img src="img/drag/F_vanilla.png" class="drag" />
+            <img src="img/drag/T_whip.png" class="drag" />
+            <img src="img/drag/T_chocchip.png" class="drag" />
+			<img src="img/drag/T_chocosprinkles.png" class="drag" />
+            <img src="img/drag/T_sprinkles.png" class="drag" />
+            <img src="img/drag/T_nuts.png" class="drag" />
+            <img src="img/drag/T_cherry.png" class="drag" />
+        	</div>
      </div>        
 
 
   </div>    
 </div>
+
+<style type="text/css">
+
+.drag{
+position:relative;
+cursor:hand;
+z-index: 100;
+}
+
+</style>
+
+<div align="left">
+
+</div>
+
+
 
 
 </body>
