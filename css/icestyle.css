@@ -150,7 +150,9 @@
 }
 
 .white{
-	height:600px;
+	height:400px;
+	background-color:#F9F9F9;
+	background-image:url(../img/background.png);
 }
 
 

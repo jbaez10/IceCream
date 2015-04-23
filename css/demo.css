@@ -3,12 +3,12 @@
   border: 1px solid red;
   width: 400px;
   height: 4.5em;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 .scroll-text ul {
   width: 800px;
   height: 100px;
-  overflow: hidden;
+/*  overflow: hidden;*/
   margin: 0;
 }
 
@@ -17,11 +17,11 @@
 }
 
 .scroll-img {
-  width: 88%;
+  width: 85%;
   height: 370px;
   overflow: hidden;
   font-size: 0;
-  margin-left:5%;
+  margin-left:6%;
 }
 
 .scroll-img ul {
