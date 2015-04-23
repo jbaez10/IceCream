@@ -1,11 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <title>world</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/icestyle.css">
@@ -18,51 +18,50 @@
 	
 
 
-
-
-<!-- GOOGLE FONT -->
-    <link href='http://fonts.googleapis.com/css?family=Pacifico|Quicksand:400,700,300|Amatic+SC:400,700|Covered+By+Your+Grace' rel='stylesheet' type='text/css'>  
+  <!-- GOOGLE FONT -->
+  <link href='http://fonts.googleapis.com/css?family=Pacifico|Quicksand:400,700,300|Amatic+SC:400,700|Covered+By+Your+Grace' rel='stylesheet' type='text/css'>  
     
     
-    <!-- JAVASCRIPT FOR IMAGE MANIPULATION -->
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="js/flavor_change.js"></script>
+  <!-- JAVASCRIPT FOR IMAGE MANIPULATION -->
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="js/flavor_change.js"></script>
 	<script src="js/make.js"></script> 
 
 
 
- <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-      <title>Creating Scrolling Parallax Effects with CSS Example</title>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   <meta name="description" content="" />
-  <link rel="stylesheet" type="text/css" href="/wp-content/themes/punky/fonts.css" media="all"><link rel="stylesheet" type="text/css" href="/wp-content/themes/punky/style.css?1429460292055" media="all"><!--[if IE]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script><![endif]--><style>
-.demo-frame header, .demo-frame h1, .demo-frame .demo-conversion {
-  display: none;
-}
+  <link rel="stylesheet" type="text/css" href="/wp-content/themes/punky/fonts.css" media="all"><link rel="stylesheet" type="text/css" href="/wp-content/themes/punky/style.css?1429460292055" media="all"><!--[if IE]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script><![endif]-->
 
-.demo-wrapper {
-  min-height: 500px;
-}
+ <style type="text/css">
 
-.bsap {
-  position: absolute;
-  top: 0;
-  right: 0;
+.title {
+  width:100%;
+  height: 150px;
+  margin-top:22%;
+  box-shadow: inset 0 0 1em #111 ;
+  background-image: url(img/background.png);
+  background-color:rgba(229,229,229,0.8);
+  font-family: 'Amatic SC', cursive;
+  font-size:5em;
+  color:rgb(86,54,63);
 }
-</style>  <style type="text/css">
 .parallax [class*="bg__"] {
   position: relative;
-  height: 50vh;
+  height: 65vh;
   text-indent: -9999px;
   background-attachment: fixed;
   background-position: top center;
-  background-size: cover;
+  background-size: cover; 
 }
 .parallax [class*="bg__"]:nth-child(2n) {
   box-shadow: inset 0 0 1em #111;
+  height: 65vh;
 }
 .parallax .bg__foo, .parallax .bg__bazz {
-  height: 100vh;
+  height: 50vh;
 }
 .parallax .bg__foo {
 <<<<<<< HEAD
@@ -71,34 +70,70 @@
   visibility: hidden;
 >>>>>>> origin/master
 }
-.parallax .bg__bar {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax2.jpg);
-  color:red;
-  
+ .parallax .container {
+  background-image: url(img/background.png);
+  background-color: rgba(229,229,229,0.8);
+  box-shadow: inset 0 0 1em #111 ;
+  height:300px;
+  width:100%;
+  color:rgb(86,54,63);
+  font-family: 'Amatic SC', cursive;
+  font-size:2em;
 }
 .parallax .bg__baz {
-  color:red;
+  background-image: url(img/ingredients.jpg);
+  
 }
+.parallax .container2 {
+  background-image: url(img/background.png);
+  background-color: rgba(229,229,229,0.8);
+  box-shadow: inset 0 0 1em #111 ;
+  height:385px;
+  width:100%;
+  color:rgb(86,54,63);
+  font-family: 'Amatic SC', cursive;
+  font-size:2em;
+  margin-top:20%;
+}
+
 .parallax .bg__bazz {
-  color:red;
+  background-image: url(img/base.jpg);
 }
 .parallax .bg__break {
   box-shadow: inset 0 0 1em #111;
   /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax1.jpg);*/
+  width:100%;
 }
 .parallax .capture {
   float: right;
   width: 200px;
   padding: 1em;
-  margin: -1.5em 1em 0 0;
+  margin: 1em 1em 0 0;
   text-indent: 0;
   background: rgba(243, 243, 243, 0.75);
-  box-shadow: 0 1px 0.125em #333;
+  box-shadow: 0 1px 0.125em #111;
 }
 
-article .container {
-  width: 600px;
-  margin: 0 auto;
+article .container3 {
+  background-image: url(img/background.png);
+  background-color: rgba(229,229,229,0.8);
+  box-shadow: inset 0 0 1em #111;
+  width: 100%;
+  height:425px;
+  color:rgb(86,54,63);
+  font-family: 'Amatic SC', cursive;
+  font-size:2em;
+  margin-top:20%;
+}
+article .container4 {
+  background-image: url(img/background.png);
+  background-color: rgba(229,229,229,0.8);
+  box-shadow: inset 0 0 1em #111;
+  width: 100%;
+  height:325px;
+  color:rgb(86,54,63);
+  font-family: 'Amatic SC', cursive;
+  font-size:2em;
 }
 article .header {
   position: relative;
@@ -119,18 +154,15 @@ article section.parallax {
   margin: 0;
   padding: 0;
 }
-  </style>
 
-
-
-
-
+</style>
 
 
 </head>
 
 <body>
 
+<!--NAVIGATION-->
 <div class="container-fluid"> 
   <div class="row" style="text-align:center;">
   	<div class="col-lg-4 navHolder" style="text-align:center;"> 
@@ -156,183 +188,129 @@ article section.parallax {
             <li><h3><a href="make.html">Making</a></h3></li>      
         </ul>
     </div>
+<!--END NAVIGATION-->    
 
 
-
-
-
-<!-- <div id="polina">
-<h1>How To Make Vanilla Ice Cream</h1>
-
-
-<p>
-<strong>Directions:</strong>
-<br><br>
-1. Stir sugar, cream, and milk into a saucepan over low heat until sugar has dissolved. Heat just until mix is hot and a small ring of foam appears around the edge.
-<br>
-2. Transfer cream mixture to a pourable container such as a large measuring cup. Stir in vanilla extract and chill mix thoroughly, at least 2 hours. (Overnight is best.)
-<br>
-3. Pour cold ice cream mix into an ice cream maker, turn on the machine, and churn according to manufacturer's directions, 20 to 25 minutes.
-<br>
-4. When ice cream is softly frozen, serve immediately or place a piece of plastic wrap directly on the ice cream and place in freezer to ripen, 2 to 3 hours.</p>
-
-
-</div> -->
-
+<!--VIDEO-->
+<video autoplay  poster="img/icecreampic.jpg" id="icepic" loop>
+  <source src="//demosthenes.info/assets/videos/polina.webm" type="video/webm">
+  <source src="video/icecreamvideo.mp4" type="video/mp4">
+</video>
 
 <script>
-z={analyticsID:"UA-2087880-2",themePath:"/wp-content/themes/punky",pluginPath:"libs/curl/src/curl/plugin/",domain:"davidwalsh.name",loadSidebar:!(-1!=navigator.userAgent.toLowerCase().indexOf("googlebot")),d:document,w:this},z.baseUrl=z.themePath+"/js/",-1==location.hostname.indexOf(z.domain)&&(z.isDebug=1,z.analyticsID=0),z.moo="//ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools"+(z.isDebug?"":"-yui-compressed")+".js";z.analyticsID&&function(){!function(e,a,n,t,c,s,i){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,s=a.createElement(n),i=a.getElementsByTagName(n)[0],s.async=1,s.src=t,i.parentNode.insertBefore(s,i)}(z.w,z.d,"script","//www.google-analytics.com/analytics.js","ga"),ga("create",z.analyticsID,z.domain),ga("send","pageview"),ga("set","nonInteraction",!0)}();</script>
+z={analyticsID:"UA-2087880-2",themePath:"/wp-content/themes/punky",pluginPath:"libs/curl/src/curl/plugin/",domain:"davidwalsh.name",loadSidebar:!(-1!=navigator.userAgent.toLowerCase().indexOf("googlebot")),d:document,w:this},z.baseUrl=z.themePath+"/js/",-1==location.hostname.indexOf(z.domain)&&(z.isDebug=1,z.analyticsID=0),z.moo="//ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools"+(z.isDebug?"":"-yui-compressed")+".js";z.analyticsID&&function(){!function(e,a,n,t,c,s,i){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,s=a.createElement(n),i=a.getElementsByTagName(n)[0],s.async=1,s.src=t,i.parentNode.insertBefore(s,i)}(z.w,z.d,"script","//www.google-analytics.com/analytics.js","ga"),ga("create",z.analyticsID,z.domain),ga("send","pageview"),ga("set","nonInteraction",!0)}();
+</script>
+<!--END VIDEO-->
 
 
-<!-- <div class="demo-wrapper">
+<div class="title">
+How to make vanilla Ice Cream right from your home!
+<h2 ><strong>Scroll down to learn how!</strong></h2>
+</div>
 
-<h1>Demo:  Creating Scrolling Parallax Effects with CSS</h1>
-
-<div class="demo-conversion">Read <a href="http://davidwalsh.name/parallax" target="_top">Creating Scrolling Parallax Effects with CSS</a></div>
-
-<div id="promoNode"></div>  
-  <p>Check out the amazing parallax effect as you scroll!</p>
-   -->
-  <!-- Four containers for setting the background images -->
+   
 <article>
   <div class="parallax">
     <div class="bg__foo"></div>
-    <div class="bg__bar"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
-    <div class="bg__baz"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
-    <div class="bg__bazz"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
-  </div>
-  <div class="header">
-    <h1>Example for 'background-attachment : fixed'</h1>
-  </div>
-  <section>
-    <div class="container">
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-     
+    
+  <div class="container">
+    <div class="col-lg-6 col-sm-6"> 
+       <br>
+       <h1><strong>Ingredients Needed</strong></h1> 
+         <strong><img src="img/icecream4.png" style="width:25px; height:25px"> 2 1/4 cups whole milk, divided 
+         <img src="img/icecream4.png" style="width:25px; height:25px"> 5 Teaspoons cornstarch <br>
+         <img src="img/icecream4.png" style="width:25px; height:25px"> 2 Ounces cream cheese, very soft 
+         <img src="img/icecream4.png" style="width:25px; height:25px"> 1/4 Teaspoon fine salt   <br>
+         <img src="img/icecream4.png" style="width:25px; height:25px"> 1 Cup heavy cream 
+         <img src="img/icecream4.png" style="width:25px; height:25px"> 2/3 Cup sugar <br>
+         <img src="img/icecream4.png" style="width:25px; height:25px"> 2 Tablespoons honey 
+         <img src="img/icecream4.png" style="width:25px; height:25px"> 1 Vanilla bean <br>
+         <img src="img/icecream4.png" style="width:25px; height:25px"> 1 Teaspoon vanilla extract 
+         <img src="img/icecream4.png" style="width:25px; height:25px"> Ice </strong><br>
     </div>
-  </section>
+    <div class="col-lg-6 col-sm-6">
+       <br>
+       <h1><strong>Equipment Needed</strong></h1>
+         <strong><img src="img/icecream4.png" style="width:25px; height:25px">2 Small to medium-sized 
+         <img src="img/icecream4.png" style="width:25px; height:25px">Prep bowls <br>
+         <img src="img/icecream4.png" style="width:25px; height:25px">Saucepan
+         <img src="img/icecream4.png" style="width:25px; height:25px">Big bowl <br>
+         <img src="img/icecream4.png" style="width:25px; height:25px">Whisk
+         <img src="img/icecream4.png" style="width:25px; height:25px">Ice cream maker <br>
+         <img src="img/icecream4.png" style="width:25px; height:25px">Shallow freezer container with lid <br>
+         <img src="img/icecream4.png" style="width:25px; height:25px">Plastic wrap or waxed paper</strong>
+    </div>   
+  </div>
+    <br>
+
+    <div class="bg__baz">
+       <div class="capture">Ice Cream Ingedients</div>
+    </div>
+    <br>
+
+  <div class="container2">
+      
+      <h1><strong> Step 1: Make an ice cream base </strong></h1>
+      <strong> <img src="img/icecream4.png" style="width:25px; height:25px"> In your first small bowl, whisk together the cornstarch with 1/4 cup of milk. Whisk thoroughly to make sure that the milk and cornstarch are smoothly combined. In your second small bowl, whisk the cream cheese until smooth, then whisk in an additional 1/4 cup milk. Whisk in the salt. </strong>
+      <br><br>
+     
+      <strong> <img src="img/icecream4.png" style="width:25px; height:25px"> In a 2-quart saucepan whisk together the remaining 1 3/4 cup milk, the heavy cream, sugar, and honey. Lay the vanilla bean flat on a cutting board and split it open lengthwise. Use the tip of a teaspoon to scrape all these beans into the saucepan, then toss in the whole bean husk as well. Bring this mixture to a simmer over medium heat, whisking frequently. Reduce the heat and simmer for 4 minutes. Remove the hot milk from the heat. </strong>
+      <br><br>
+      
+      <strong> <img src="img/icecream4.png" style="width:25px; height:25px"> Whisk about 1/2 cup of the hot milk into the cornstarch slurry. Slowly pour this back into the hot milk, whisking constantly. Return to the heat and cook, whisking frequently, until it comes to a boil. Boil for 1 minute then remove from the heat. Whisk in the thinned cream cheese. Remove the vanilla bean. Whisk in the vanilla extract. </strong>
+        
+  </div>  
+  <br>
+
+  <div class="bg__bazz">  
+    <div class="capture">Ice Cream Base</div>
+  </div>
+  <br>
+  
+  
+  <div class="container3"> 
+ 
+    <div class="col-lg-6 col-sm-6">
+      <h1><strong> Step 2: Chill the ice cream base </strong></h1>
+      <img src="img/icecream4.png" style="width:25px; height:25px"><strong> A fast and effective way would be to pour your ice cream mix in a bag and submerge it in ice water. 
+      </strong> 
+      <br>
+      <img src= "img/icebag.jpg">
+    </div>
+
+    <div class="col-lg-6 col-sm-6">
+      <h1><strong> Step 3: Freeze and churn the ice cream base </strong></h1>
+      <img src= "img/maker.jpg">
+      <br>
+      <img src="img/icecream4.png" style="width:25px; height:25px"><strong> The most popular and most common way of making ice cream at home is with a "freeze-the-bowl" home ice cream maker. You need extra freezer space to freeze the ice cream bowl until the special fluid inside is rock hard. Then you put in your chilled ice cream base, and let the machine stir the ice cream until it is mostly frozen. </strong>
+    </div>  
+
+  </div>
+  
+  
   <section class="parallax">
     <div class="bg__break">
-      <div class="capture">Caption for this beautiful break image, Caption for this beautiful break image, Caption for this beautiful break image, Caption for this beautiful break image.</div>
+      
     </div>
   </section>
-  <section>
-    <div class="container">
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+ 
+    <div class="container4">
+      
+      <br>
+      <h1><strong> Step 4: Ripen and harden the ice cream in the freezer</strong></h1>
+      <img src="img/icecream4.png" style="width:25px; height:25px"><strong> Before finishing the mixing, if you want to add in any syrups or fruits into your ice cream mix this is when it should be done. </strong>
+      <br>
+      <img src="img/icecream4.png" style="width:25px; height:25px"><strong> No matter what kind of ice cream maker you use, the freshly-churned ice cream will still be very soft and even runny after it has been churned. In order to get that scoopable texture, and to let the flavors meld and bloom, it's best to freeze the ice cream for at least a few hours before eating. </strong>
+      <br>
+      <img src="img/icecream4.png" style="width:25px; height:25px"><strong> Scrape the ice cream into a shallow container (to help it freeze faster) and, just like when making custard or pudding, cover the surface of the ice cream completely with plastic wrap or waxed paper. Seal with a lid and freeze for a few hours. </strong>
+      <br> 
+      <img src="img/icecream4.png" style="width:25px; height:25px"> <strong> Then scoop and enjoy! </strong>
+      
     </div>
-  </section>
-</article>
   
   
 </div>
-
-<p class="demo-conversion">Back to: <a href="http://davidwalsh.name/parallax" target="_top">Creating Scrolling Parallax Effects with CSS</a></p>
-
-</main>
-
-<video autoplay  poster="img/icecreampic.jpg" id="icepic" loop>
-  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-<source src="//demosthenes.info/assets/videos/polina.webm" type="video/webm">
-<source src="video/icecreamvideo.mp4" type="video/mp4">
-</video>
-
-  <style>
-    body .one .bsa_it_ad { background: #f8f8f8; border: none; font-family: inherit; width: 200px; position: absolute; top: 0; right: 0; text-align: center; border-radius: 8px; }
-    body .one .bsa_it_ad .bsa_it_i { display: block; padding: 0; float: none; margin: 0 0 5px; }
-    body .one .bsa_it_ad .bsa_it_i img { padding: 10px; border: none; margin: 0 auto; }
-    body .one .bsa_it_ad .bsa_it_t { padding: 6px 0; }
-    body .one .bsa_it_ad .bsa_it_d { padding: 0; font-size: 12px; color: #333; }
-    body .one .bsa_it_p { display: none; }
-    body #bsap_aplink, body #bsap_aplink:hover { display: block; font-size: 10px; margin: 12px 15px 0; text-align: right; }
-  </style>
-  <script type="text/javascript" src="http://cdn.adpacks.com/adpacks.js?legacyid=1280449&zoneid=1386&key=db3b221ddd8cbba67739ae3837520ffe&serve=C6SI42Y&placement=davidwalshname&circle=dev" id="_adpacks_js"></script>
-
-
-<script>
-
-document.body.className+= ' demo-page';
-
-window.addEventListener('load', function() {
-  var s = 'script';
-  var d = document;
-  var w = window;
-  var firstScript = d.getElementsByTagName(s)[0];
-
-  
-  (function() {
-    var first_paragraph = document.getElementsByTagName('p')[0];
-    if(first_paragraph) {
-      first_paragraph.className = 'demo-intro';
-    }
-
-    setTimeout(function() {
-      var headerA = d.getElementById('header-fx');
-      headerA.className += ' complete';
-    }, 2000);
-  })();
-  
-
-  // BSA bitches!
-  var bsa = d.createElement(s);
-  bsa.async = 1;
-  bsa.src = '//s3.buysellads.com/ac/bsa.js';
-  firstScript.parentNode.insertBefore(bsa, firstScript);
-
-  // Promo!
-  (function() {
-
-    var promoNode = d.getElementById('promoNode');
-
-    // Temporary - use MooTools 2.0 when available
-    function createElement(tagName, attr, parent) {
-      var el = d.createElement(tagName);
-      for(prop in attr) {
-        if(attr.hasOwnProperty(prop)) el.setAttribute(prop, attr[prop]);
-      }
-      parent.appendChild(el);
-      return el;
-    }
-
-    // Loads a script
-    function loadScript(url) {
-      var script = d.createElement('script');
-      script.src = url;
-      script.setAttribute('async', 'true');
-      d.documentElement.firstChild.appendChild(script);
-    }
-
-    // Create the Twitter widget, inject
-    createElement('a', {
-      href: '//twitter.com/share',
-      'data-count': 'horizontal',
-      'class': 'twitter-share-button'
-    }, createElement('span', {}, promoNode));
-    loadScript('http://platform.twitter.com/widgets.js');
-
-    // Create the Google Plus icon
-    var gl = createElement('g:plusone', {
-      href: w.location,
-      size: 'medium'
-    }, createElement('span', {}, promoNode));
-    loadScript('//apis.google.com/js/plusone.js');
-    
-    // Create the Facebook widget
-    createElement('iframe', {
-      src: '//facebook.com/plugins/like.php?href=' + w.location,
-      scrolling: 'no',
-      frameborder: 0,
-      allowTransparency: true,
-      style: 'border:none; overflow:hidden; float:left; height:24px; margin-top:3px;'
-    }, createElement('span', {}, promoNode));
-
-  })();
-});
-
-!function(e){var t=e.createElement("link"),s="setAttribute";t[s]("type","text/css"),t[s]("rel","stylesheet"),t[s]("href","//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"),e.head.appendChild(t)}(z.d);</script>
-
-
-
-
-
+</article>
 
 
 </body>
