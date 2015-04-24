@@ -52,7 +52,7 @@ function initialize() {
       var marker = new google.maps.Marker({
         map: map,
         icon: 'img/icecream4.png',
-        zoom:11,
+        zoom:5,
         title: place.name,
         position: place.geometry.location
       });
