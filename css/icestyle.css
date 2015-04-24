@@ -24,10 +24,6 @@
 	padding:5px;
 }
 
-.footer {
-	background-color:#333;
-	height:60px;
-}
 
 
 /* INDEX.HTML */
@@ -156,7 +152,7 @@
 }
 
 .white{
-	height:400px;
+	height:100%;
 	background-color:#F9F9F9;
 	background-image:url(../img/background.png);
 }
@@ -267,6 +263,9 @@
 	transition: box-shadow 0.2s ease-in-out;
 }
 */
+
+
+
 /* WORLD CSS / GOOGLE MAP */
 
 	.controls {
@@ -443,8 +442,14 @@ video {
 	.navHolder > li > h3 > a { /* change when nav is finalized */
 	font-family: 'Amatic SC', cursive;
 	color:white;
-	font-size:40px;
-	padding-left:2px;
+	font-size:25px;
+	padding-left:1px;
+	}
+	
+	.title_flavors{ /* title of "americas favorite" */
+	font-family: 'Amatic SC', cursive;
+	font-size:50px;
+	line-height:40px;
 	}
 	
 }
