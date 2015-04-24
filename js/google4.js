@@ -51,7 +51,7 @@ function initialize() {
       // Create a marker for each place.
       var marker = new google.maps.Marker({
         map: map,
-        icon: image,
+        icon: 'img/icecream4.png',
         zoom:11,
         title: place.name,
         position: place.geometry.location
