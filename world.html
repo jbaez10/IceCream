@@ -26,8 +26,10 @@
  <!-- GOOGLE API MAP -->
  <script src="http://maps.googleapis.com/maps/api/js"></script>
  <!--<script src="js/google.js"></script>-->
- <script src="js/google3.js"></script>
- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+ <script src="js/google4.js"></script>
+ 
+ <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+ 
  
  <!-- CAROUSEL SLIDER -->
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -156,9 +158,20 @@ $(function () {
         
         
         	<div class="mapHolder">
+            
+            <style>
+      			#target {
+       			 	width: 345px;
+      			}
+    		</style>
+            
+            <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+   			<div id="map-canvas" style="width:100%; height:560px;"></div>
+            
+            
             <!--<div id="googleMap" style="width:100%;height:580px;"></div>-->
             <!-- snazzy maps & map builder to stylize the google map -->
-            <div id="map" style="width:100%; height:580px;"></div>
+            <!-- <div id="map" style="width:100%; height:580px;"></div> -->
             </div>
      	</div>
      </div>
